@@ -1,4 +1,4 @@
-const LANG_KEY = 'og_lang';
+build the voice panel and character library into Grim Generative AIconst LANG_KEY = 'og_lang';
 
 /** Normalize legacy `zh` and browser locales to BCP-47 zh-CN. */
 export function normalizeLang(raw) {
