@@ -1,0 +1,257 @@
+{
+  "entries": {
+    "cmd-1791574566344": {
+      "key": "cmd-1791574566344",
+      "value": "{\"command\":\"env | grep -i ELECTRON_RUN_AS_NODE; echo \\\"[$ELECTRON_RUN_AS_NODE]\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:36:06.344Z",
+      "lastAccessed": "2026-10-09T19:36:06.344Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:36:06.344Z"
+    },
+    "cmd-1791574584633": {
+      "key": "cmd-1791574584633",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && head -5 LICENSE && ls && echo --- && grep -n '\\\"name\\\"\\\\|productName\\\\|appId\\\\|\\\"icon\\\"\\\\|\\\"title\\\"\\\\|\\\"build\\\"' package.json | head; echo --- ; grep -rn \\\"<title>\\\" index.html; grep -n \\\"title:\\\\|new BrowserWindow\\\\|setTitle\\\" electron/main.js | head; ls public build assets 2>/dev/null | head -30; grep -rIl \\\"Open Generative AI\\\\|Open-Generative-AI\\\" --exclude-dir=node_modules --exclude-dir=dist --exclude-dir=.git --exclude-dir=packages . | head -40; echo; git ls-files | grep -iE \\\"\\\\.env|key|secret\\\" | head\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:36:24.633Z",
+      "lastAccessed": "2026-10-09T19:36:24.633Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:36:24.633Z"
+    },
+    "cmd-1791574592146": {
+      "key": "cmd-1791574592146",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -n \\\"primary\\\\|accent\\\\|#d9ff00\\\\|#[0-9a-fA-F]\\\\{6\\\\}\\\" tailwind.config.js | head -12; ls src src/styles 2>/dev/null | head -30; grep -rhoE \\\"#[dD]9[fF]{2}00|#a3e635|#c8ff00\\\" src packages/studio/src --include=*.css --include=*.js 2>/dev/null | sort | uniq -c | sort -rn | head -5; cat >> .gitignore <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:36:32.146Z",
+      "lastAccessed": "2026-10-09T19:36:32.146Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:36:32.146Z"
+    },
+    "cmd-1791575005182": {
+      "key": "cmd-1791575005182",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -rnI \\\"Open Generative AI\\\\|Open-Generative-AI\\\\|open-generative-ai\\\\|ai\\\\.generative\\\\.open\\\" --exclude-dir=node_modules --exclude-dir=dist --exclude-dir=.git --exclude-dir=packages --exclude=package-lock.json --exclude=README.md --exclude=LICENSE --exclude=project_knowledge.md . | cut -c1-200\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:43:25.182Z",
+      "lastAccessed": "2026-10-09T19:43:25.182Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:43:25.182Z"
+    },
+    "cmd-1791575019834": {
+      "key": "cmd-1791575019834",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI &&\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:43:39.834Z",
+      "lastAccessed": "2026-10-09T19:43:39.834Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:43:39.834Z"
+    },
+    "cmd-1791575026014": {
+      "key": "cmd-1791575026014",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -i '8s/open-generative-ai/grim-generative-ai/' package-lock.json && (npm test 2>&1 | tail -8); grep -n '\\\"test\\\"' package.json\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:43:46.014Z",
+      "lastAccessed": "2026-10-09T19:43:46.014Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:43:46.014Z"
+    },
+    "cmd-1791575032084": {
+      "key": "cmd-1791575032084",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && node --test tests/ 2>&1 | tail -8; git add -A && git commit -q -m \\\"feat: rebrand app name to Grim Generative AI\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:43:52.084Z",
+      "lastAccessed": "2026-10-09T19:43:52.084Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:43:52.084Z"
+    },
+    "cmd-1791575041613": {
+      "key": "cmd-1791575041613",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && ls tests; node --test tests/*.test.js 2>&1 | grep -E \\\"^ℹ (tests|pass|fail)|✖\\\" | head\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:44:01.613Z",
+      "lastAccessed": "2026-10-09T19:44:01.613Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:44:01.613Z"
+    },
+    "cmd-1791575048721": {
+      "key": "cmd-1791575048721",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && wc -l electron/lib/wan2gp*.js; sed -n 1,80p electron/lib/wan2gpProvider.js; grep -n \\\"7860\\\\|mcp\\\\|MCP\\\" electron/lib/wan2gpProvider.js electron/lib/wan2gpMcp.js | head -40; grep -rn -i \\\"wan2gp\\\" README.md docs 2>/dev/null | head -15\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:44:08.721Z",
+      "lastAccessed": "2026-10-09T19:44:08.721Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:44:08.721Z"
+    },
+    "cmd-1791575056242": {
+      "key": "cmd-1791575056242",
+      "value": "{\"command\":\"curl -s -m 5 -o /dev/null -w \\\"7860 http=%{http_code}\\\\n\\\" http://127.0.0.1:7860/ ; curl -s -m 5 -o /dev/null -w \\\"mcp http=%{http_code}\\\\n\\\" http://127.0.0.1:7860/gradio_api/mcp/sse; nvidia-smi --query-gpu=name,memory.used,memory.total --format=csv,noheader; ls /c/Users/GRIM/Documents/GitHub | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:44:16.242Z",
+      "lastAccessed": "2026-10-09T19:44:16.242Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:44:16.242Z"
+    },
+    "cmd-1791575065122": {
+      "key": "cmd-1791575065122",
+      "value": "{\"command\":\"for d in /c/Users/GRIM /c/Users/GRIM/Documents /c/Users/GRIM/Documents/GitHub /c/ /c/AI /d; do ls -d \\\"$d\\\"/*[Ww]an2[Gg][Pp]* \\\"$d\\\"/*[Ww]an[Gg][Pp]* 2>/dev/null; done; find /c/Users/GRIM -maxdepth 4 -name wgp.py -not -path \\\"*/node_modules/*\\\" 2>/dev/null | head; python --version 2>&1; py --version 2>&1 | head -2; ls /c/Users/GRIM/AppData/Roaming/*/local-ai/wan2gp.json /c/Users/GRIM/AppData/Roaming/*/*/wan2gp.json 2>/dev/null; df -h /c | tail -1\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:44:25.122Z",
+      "lastAccessed": "2026-10-09T19:44:25.122Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:44:25.122Z"
+    },
+    "cmd-1791575356689": {
+      "key": "cmd-1791575356689",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && cat src/styles/variables.css | head -60; sed -n 10,45p tailwind.config.js; grep -rhoiE \\\"#(22d3ee|06b6d4|d9ff00|a855f7|8b5cf6|7c3aed)\\\\b|rgba\\\\((34, ?211, ?238|168, ?85, ?247|217, ?255, ?0)[^)]*\\\\)\\\" src components packages/*/src public/*.html index.html --include=*.css --include=*.js --include=*.html 2>/dev/null | tr 'A-Z' 'a-z' | sort | uniq -c | sort -rn | head -12\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:49:16.689Z",
+      "lastAccessed": "2026-10-09T19:49:16.689Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:49:16.689Z"
+    },
+    "cmd-1791575363974": {
+      "key": "cmd-1791575363974",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -rhoiE \\\"#[0-9a-f]{6}\\\\b|rgba?\\\\([0-9, .]+\\\\)\\\" src packages/studio/src --include=*.css --include=*.js 2>/dev/null | tr 'A-Z' 'a-z' | sed 's/ //g' | sort | uniq -c | sort -rn | head -30; grep -rn \\\"d9ff00\\\\|b0fb5d\\\\|a3e635\\\" -il src packages/studio/src packages/*/src 2>/dev/null | head\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:49:23.974Z",
+      "lastAccessed": "2026-10-09T19:49:23.974Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:49:23.974Z"
+    },
+    "cmd-1791575376982": {
+      "key": "cmd-1791575376982",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI &&\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:49:36.982Z",
+      "lastAccessed": "2026-10-09T19:49:36.982Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:49:36.982Z"
+    },
+    "cmd-1791575440565": {
+      "key": "cmd-1791575440565",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && git add -A && git commit -q -m \\\"feat(theme): dark glowing red and black theme with Tiffany teal accent\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T19:50:40.565Z",
+      "lastAccessed": "2026-10-09T19:50:40.565Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T19:50:40.565Z"
+    },
+    "cmd-1791576031692": {
+      "key": "cmd-1791576031692",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -rn \\\"e11d2e\\\" src packages/studio/src components app tailwind.config.js packages/studio/tailwind.config.js -il | head -40; grep -rhoE \\\"(bg|text|border|ring|from|to|via|shadow)-primary[^ \\\\\\\"'\\\\`]*\\\" src packages/studio/src components | sort | uniq -c | sort -rn | head -15\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:00:31.692Z",
+      "lastAccessed": "2026-10-09T20:00:31.692Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:00:31.692Z"
+    },
+    "cmd-1791576043914": {
+      "key": "cmd-1791576043914",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -n \\\"accent\\\" tailwind.config.js packages/studio/tailwind.config.js;\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:00:43.914Z",
+      "lastAccessed": "2026-10-09T20:00:43.914Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:00:43.914Z"
+    },
+    "cmd-1791576049007": {
+      "key": "cmd-1791576049007",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -n -A6 \\\"primary\\\" packages/studio/tailwind.config.js\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:00:49.007Z",
+      "lastAccessed": "2026-10-09T20:00:49.007Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:00:49.007Z"
+    },
+    "cmd-1791576055400": {
+      "key": "cmd-1791576055400",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -i \\\"23a\\\\        accent: '#0abab5',\\\" packages/studio/tailwind.config.js && sed -n 22,26p packages/studio/tailwind.config.js\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:00:55.400Z",
+      "lastAccessed": "2026-10-09T20:00:55.400Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:00:55.400Z"
+    },
+    "cmd-1791576102799": {
+      "key": "cmd-1791576102799",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && git add -A 2>/dev/null && git commit -q -m \\\"feat(theme): use Tiffany teal for text accents, borders and rings\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:01:42.799Z",
+      "lastAccessed": "2026-10-09T20:01:42.799Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:01:42.799Z"
+    },
+    "cmd-1791576110392": {
+      "key": "cmd-1791576110392",
+      "value": "{\"command\":\"ls -d /c/Users/GRIM/AppData/Roaming/*[Gg]enerative* 2>/dev/null; ls /c/Users/GRIM/AppData/Roaming/*[Gg]rim*/local-ai 2>/dev/null; cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -n 80,135p electron/lib/wan2gpProvider.js; grep -n \\\"ipcMain.handle\\\" electron/lib/wan2gpProvider.js\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:01:50.392Z",
+      "lastAccessed": "2026-10-09T20:01:50.392Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:01:50.392Z"
+    },
+    "cmd-1791576121141": {
+      "key": "cmd-1791576121141",
+      "value": "{\"command\":\"cat > /c/Users/GRIM/AppData/Roaming/grim-generative-ai/local-ai/wan2gp.json <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:02:01.141Z",
+      "lastAccessed": "2026-10-09T20:02:01.141Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:02:01.141Z"
+    },
+    "cmd-1791576126461": {
+      "key": "cmd-1791576126461",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && node \\\"$TEMP/chk.js\\\" 2>&1 | head -8\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:02:06.461Z",
+      "lastAccessed": "2026-10-09T20:02:06.461Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:02:06.461Z"
+    },
+    "cmd-1791576149025": {
+      "key": "cmd-1791576149025",
+      "value": "{\"command\":\"cat > /c/Users/GRIM/AppData/Roaming/grim-generative-ai/local-ai/wan2gp.json <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:02:29.025Z",
+      "lastAccessed": "2026-10-09T20:02:29.025Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:02:29.025Z"
+    },
+    "cmd-1791576405328": {
+      "key": "cmd-1791576405328",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -n \\\"module.exports\\\" -A12 electron/lib/wan2gpLocal.js; sed -n 150,235p electron/lib/wan2gpProvider.js\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:06:45.328Z",
+      "lastAccessed": "2026-10-09T20:06:45.328Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:06:45.328Z"
+    },
+    "cmd-1791576413402": {
+      "key": "cmd-1791576413402",
+      "value": "{\"command\":\"cat > \\\"$TEMP/gen.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:06:53.402Z",
+      "lastAccessed": "2026-10-09T20:06:53.402Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:06:53.402Z"
+    },
+    "cmd-1791576418299": {
+      "key": "cmd-1791576418299",
+      "value": "{\"command\":\"tail -c 1500 \\\"$TEMP/gen.log\\\"; nvidia-smi --query-gpu=memory.used,utilization.gpu --format=csv,noheader\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:06:58.299Z",
+      "lastAccessed": "2026-10-09T20:06:58.299Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:06:58.299Z"
+    },
+    "cmd-1791576438386": {
+      "key": "cmd-1791576438386",
+      "value": "{\"command\":\"tail -c 1200 \\\"$TEMP/gen.log\\\"; echo; tasklist | grep -ci \\\"python.exe\\\"; nvidia-smi --query-gpu=memory.used,utilization.gpu --format=csv,noheader; ls -la \\\"$TEMP\\\"/wan2gp-testrun-*/ 2>/dev/null | tail -5\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T20:07:18.386Z",
+      "lastAccessed": "2026-10-09T20:07:18.386Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T20:07:18.386Z"
+    }
+  },
+  "version": "3.0.0"
+}
