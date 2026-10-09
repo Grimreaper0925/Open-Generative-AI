@@ -593,6 +593,330 @@
       "lastAccessed": "2026-10-09T21:06:07.353Z",
       "accessCount": 0,
       "expiresAt": "2026-11-08T21:06:07.353Z"
+    },
+    "cmd-1791580235115": {
+      "key": "cmd-1791580235115",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && printf '@echo off\\\\r\\\\nrem Launches Grim Generative AI (desktop app). Clears ELECTRON_RUN_AS_NODE, which some terminals/IDEs set and which breaks Electron.\\\\r\\\\nset ELECTRON_RUN_AS_NODE=\\\\r\\\\ncd /d \\\"%%~dp0..\\\"\\\\r\\\\ncall npm run electron:dev\\\\r\\\\nif errorlevel 1 pause\\\\r\\\\n' > scripts/launch-grim.bat && cat scripts/launch-grim.bat && git add scripts/launch-grim.bat 2>/dev/null && git commit -q -m \\\"chore: add Windows launcher script for the desktop app\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:10:35.115Z",
+      "lastAccessed": "2026-10-09T21:10:35.115Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:10:35.115Z"
+    },
+    "cmd-1791580490339": {
+      "key": "cmd-1791580490339",
+      "value": "{\"command\":\"cat > \\\"$TEMP/timing.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:14:50.339Z",
+      "lastAccessed": "2026-10-09T21:14:50.339Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:14:50.339Z"
+    },
+    "cmd-1791581122296": {
+      "key": "cmd-1791581122296",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -n 425,470p src/components/VideoStudio.js; grep -n \\\"localAvailability\\\\|useLocalModel\\\\|localT2V\\\\|localI2V\\\\|isLocal\\\" src/components/VideoStudio.js | head -60\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:25:22.296Z",
+      "lastAccessed": "2026-10-09T21:25:22.296Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:25:22.296Z"
+    },
+    "cmd-1791581129311": {
+      "key": "cmd-1791581129311",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -n 672,735p src/components/VideoStudio.js; grep -n -i \\\"advanced\\\" src/components/VideoStudio.js | head -20\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:25:29.311Z",
+      "lastAccessed": "2026-10-09T21:25:29.311Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:25:29.311Z"
+    },
+    "cmd-1791581137974": {
+      "key": "cmd-1791581137974",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && cat electron/lib/wan2gpModelAvailability.js; node -e \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:25:37.974Z",
+      "lastAccessed": "2026-10-09T21:25:37.974Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:25:37.974Z"
+    },
+    "cmd-1791581149140": {
+      "key": "cmd-1791581149140",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -n \\\"controlsLeft = \\\\|controlsLeft.className\\\" src/components/VideoStudio.js; grep -n -i \\\"advanced\\\" src/components/ImageStudio.js | head; sed -n 1250,1330p src/components/VideoStudio.js\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:25:49.140Z",
+      "lastAccessed": "2026-10-09T21:25:49.140Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:25:49.140Z"
+    },
+    "cmd-1791581163752": {
+      "key": "cmd-1791581163752",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Wan2GP/defaults && for f in t2v_1.3B i2v_2_2 t2v_2_2 ltx2_22B_distilled hunyuan_1_5_480_t2v; do echo \\\"== $f\\\"; python -c \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:26:03.752Z",
+      "lastAccessed": "2026-10-09T21:26:03.752Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:26:03.752Z"
+    },
+    "cmd-1791581200616": {
+      "key": "cmd-1791581200616",
+      "value": "{\"command\":\"S=\\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad\\\"; sed -i 's#127.0.0.1:9222#127.0.0.1:${process.env.CDP_PORT||9222}#; s#fetch(.http://127.0.0.1:${process.env.CDP_PORT||9222}/json.)#fetch(`http://127.0.0.1:${process.env.CDP_PORT||9222}/json`)#' \\\"$S/cdp.js\\\"; grep -n \\\"9222\\\\|CDP_PORT\\\" \\\"$S/cdp.js\\\" | head -3\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:26:40.616Z",
+      "lastAccessed": "2026-10-09T21:26:40.616Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:26:40.616Z"
+    },
+    "cmd-1791581214151": {
+      "key": "cmd-1791581214151",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -n 736,800p src/components/VideoStudio.js; grep -n \\\"imageMode = \\\\|const onSelect\\\\|onSelect:\\\" src/components/VideoStudio.js | head -20; sed -n 185,215p src/components/VideoStudio.js\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:26:54.151Z",
+      "lastAccessed": "2026-10-09T21:26:54.151Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:26:54.151Z"
+    },
+    "cmd-1791581222074": {
+      "key": "cmd-1791581222074",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -n 140,184p src/components/VideoStudio.js; sed -n 386,396p src/components/VideoStudio.js; grep -n \\\"const createControlBtn\\\" -A22 src/components/VideoStudio.js | head -40; grep -n \\\"advanced\\\" -i src/lib/i18n.js | head -4\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:27:02.074Z",
+      "lastAccessed": "2026-10-09T21:27:02.074Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:27:02.074Z"
+    },
+    "cmd-1791581242074": {
+      "key": "cmd-1791581242074",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Wan2GP && grep -rn \\\"fps\\\" models/ltx2/ltx2.py 2>/dev/null | head -8; grep -rn \\\"\\\\\\\"fps\\\\\\\"\\\\|fps_def\\\\|def get_fps\\\\|fps = \\\" models/wan/wan_handler.py models/hyvideo/hunyuan_handler.py 2>/dev/null | head -8; grep -n \\\"frames_minimum\\\\|frames_steps\\\\|latent_size\\\" models/ltx2/ltx2_handler.py models/wan/wan_handler.py models/hyvideo/hunyuan_handler.py 2>/dev/null | head\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:27:22.074Z",
+      "lastAccessed": "2026-10-09T21:27:22.074Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:27:22.074Z"
+    },
+    "cmd-1791581247066": {
+      "key": "cmd-1791581247066",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Wan2GP && sed -n 55,62p models/hyvideo/hunyuan_handler.py; grep -n \\\"fps\\\" models/ltx2/ltx2_handler.py | head -6\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:27:27.066Z",
+      "lastAccessed": "2026-10-09T21:27:27.066Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:27:27.066Z"
+    },
+    "cmd-1791581264041": {
+      "key": "cmd-1791581264041",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -n \\\"updateControlsForModel = \\\\|function updateControlsForModel\\\" -A6 src/components/VideoStudio.js | head -14; sed -n 468,486p src/components/VideoStudio.js; grep -n \\\"container.appendChild(promptWrapper);\\\" src/components/VideoStudio.js; grep -n \\\"const closeDropdown\\\\|let dropdownOpen\\\\|dropdown = \\\" src/components/VideoStudio.js | head\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:27:44.041Z",
+      "lastAccessed": "2026-10-09T21:27:44.041Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:27:44.041Z"
+    },
+    "cmd-1791581307880": {
+      "key": "cmd-1791581307880",
+      "value": "{\"command\":\"cd \\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad\\\" && node - <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:28:27.880Z",
+      "lastAccessed": "2026-10-09T21:28:27.880Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:28:27.880Z"
+    },
+    "cmd-1791581315969": {
+      "key": "cmd-1791581315969",
+      "value": "{\"command\":\"cd \\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad\\\" && sed -n 46,58p patch6.js\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:28:35.969Z",
+      "lastAccessed": "2026-10-09T21:28:35.969Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:28:35.969Z"
+    },
+    "cmd-1791581331066": {
+      "key": "cmd-1791581331066",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && node \\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad/patch6.js\\\" && node --test tests/*.test.js 2>&1 | grep -E \\\"^ℹ (tests|pass|fail)|^✖\\\"; npx vite build 2>&1 | grep -iE \\\"error|built in\\\" | head -5; node -e \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:28:51.066Z",
+      "lastAccessed": "2026-10-09T21:28:51.066Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:28:51.066Z"
+    },
+    "cmd-1791581360351": {
+      "key": "cmd-1791581360351",
+      "value": "{\"command\":\"R=/c/Users/GRIM/AppData/Roaming/grim-generative-ai/local-ai/data/wan2gp/runs; ls -lt $R | head -5; find $R -name \\\"*.mp4\\\" -printf \\\"%TY-%Tm-%Td %TH:%TM  %s bytes  %p\\\\n\\\" 2>/dev/null | sort | tail -4; date\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:29:20.351Z",
+      "lastAccessed": "2026-10-09T21:29:20.351Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:29:20.351Z"
+    },
+    "cmd-1791581365749": {
+      "key": "cmd-1791581365749",
+      "value": "{\"command\":\"find /c/Users/GRIM/AppData/Roaming/grim-generative-ai -name \\\"*.mp4\\\" -printf \\\"%TH:%TM  %s bytes  %p\\\\n\\\" 2>/dev/null | sort | tail -5; find /c/Users/GRIM/AppData/Roaming/grim-generative-ai -maxdepth 4 -type d -name \\\"runs\\\" 2>/dev/null\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:29:25.749Z",
+      "lastAccessed": "2026-10-09T21:29:25.749Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:29:25.749Z"
+    },
+    "cmd-1791581380236": {
+      "key": "cmd-1791581380236",
+      "value": "{\"command\":\"S=\\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad\\\"; cat > \\\"$S/v2.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:29:40.236Z",
+      "lastAccessed": "2026-10-09T21:29:40.236Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:29:40.236Z"
+    },
+    "cmd-1791581397013": {
+      "key": "cmd-1791581397013",
+      "value": "{\"command\":\"S=\\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad\\\"; cat > \\\"$S/v3.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:29:57.013Z",
+      "lastAccessed": "2026-10-09T21:29:57.013Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:29:57.013Z"
+    },
+    "cmd-1791581408281": {
+      "key": "cmd-1791581408281",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -n 9,44p src/components/VideoStudio.js\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:30:08.281Z",
+      "lastAccessed": "2026-10-09T21:30:08.281Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:30:08.281Z"
+    },
+    "cmd-1791581418738": {
+      "key": "cmd-1791581418738",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && cat > \\\"$TEMP/p7.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:30:18.738Z",
+      "lastAccessed": "2026-10-09T21:30:18.738Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:30:18.738Z"
+    },
+    "cmd-1791581452650": {
+      "key": "cmd-1791581452650",
+      "value": "{\"command\":\"S=\\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad\\\"; cat > \\\"$S/v4.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:30:52.650Z",
+      "lastAccessed": "2026-10-09T21:30:52.650Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:30:52.650Z"
+    },
+    "cmd-1791581473206": {
+      "key": "cmd-1791581473206",
+      "value": "{\"command\":\"S=\\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad\\\"; cat > \\\"$S/v5.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:31:13.206Z",
+      "lastAccessed": "2026-10-09T21:31:13.206Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:31:13.206Z"
+    },
+    "cmd-1791581484466": {
+      "key": "cmd-1791581484466",
+      "value": "{\"command\":\"S=\\\"C:/Users/GRIM/AppData/Local/Temp/claude/c--Users-GRIM-Documents-GitHub-Open-Generative-AI/0803f54c-f1a4-48cc-a5da-88cafe4759ca/scratchpad\\\"; cat > \\\"$S/v6.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:31:24.466Z",
+      "lastAccessed": "2026-10-09T21:31:24.466Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:31:24.466Z"
+    },
+    "cmd-1791581499173": {
+      "key": "cmd-1791581499173",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && cat >> tests/wan2gpCatalog.test.js <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:31:39.173Z",
+      "lastAccessed": "2026-10-09T21:31:39.173Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:31:39.173Z"
+    },
+    "cmd-1791581509475": {
+      "key": "cmd-1791581509475",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && git add -A 2>/dev/null && git commit -q -m \\\"feat(video): working Advanced panel, I2V models in list, wrapping controls\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:31:49.475Z",
+      "lastAccessed": "2026-10-09T21:31:49.475Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:31:49.475Z"
+    },
+    "cmd-1791581611458": {
+      "key": "cmd-1791581611458",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -rnoE \\\"bg-primary[^\\\\\\\"'\\\\`]{0,80}text-black|text-black[^\\\\\\\"'\\\\`]{0,60}bg-primary( |\\\\\\\"|'|\\\\`)\\\" src components packages/studio/src app --include=*.js --include=*.jsx | wc -l; grep -rlE \\\"bg-primary[^\\\\\\\"'\\\\`]{0,80}text-black|text-black[^\\\\\\\"'\\\\`]{0,60}bg-primary( |\\\\\\\"|'|\\\\`)\\\" src components packages/studio/src app --include=*.js --include=*.jsx | head -30\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:33:31.458Z",
+      "lastAccessed": "2026-10-09T21:33:31.458Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:33:31.458Z"
+    },
+    "cmd-1791581620033": {
+      "key": "cmd-1791581620033",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -rnE \\\"text-black\\\" src components packages/studio/src app --include=*.js --include=*.jsx | grep -E \\\"bg-primary([^/a-z-]|$)\\\" | sed -E 's/^([^:]+:[0-9]+):.*(class(Name)?[=:] ?.?[\\\"'\\\"'\\\"'`])/\\\\1 ... /' | cut -c1-210 | head -45\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:33:40.033Z",
+      "lastAccessed": "2026-10-09T21:33:40.033Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:33:40.033Z"
+    },
+    "cmd-1791581630982": {
+      "key": "cmd-1791581630982",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && cat > \\\"$TEMP/p8.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:33:50.982Z",
+      "lastAccessed": "2026-10-09T21:33:50.982Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:33:50.982Z"
+    },
+    "cmd-1791581638532": {
+      "key": "cmd-1791581638532",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -i 's#<span class=\\\"text-\\\\[10px\\\\] font-black text-black\\\">V</span>#<span class=\\\"text-[10px] font-black text-white\\\">V</span>#' src/components/VideoStudio.js && sed -i 's#<span class=\\\"text-\\\\[10px\\\\] font-black text-black\\\">G</span>#<span class=\\\"text-[10px] font-black text-white\\\">G</span>#' src/components/ImageStudio.js && grep -rlE \\\"animate-spin[^\\\\\\\"'\\\\`]*text-black\\\" src packages/studio/src --include=*.js --include=*.jsx | while read f; do sed -i -E 's/(animate-spin[^\\\"'\\\"'\\\"'`]*)text-black/\\\\1text-white/g' \\\"$f\\\"; echo \\\"spinner: $f\\\"; done; grep -rn \\\"text-black\\\" src --include=*.js | grep -v \\\"selection:\\\" | cut -c1-150 | head\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:33:58.532Z",
+      "lastAccessed": "2026-10-09T21:33:58.532Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:33:58.532Z"
+    },
+    "cmd-1791581646472": {
+      "key": "cmd-1791581646472",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && grep -rlE \\\"bg-\\\\[#e11d2e\\\\][^\\\\\\\"'\\\\`]*text-black|text-black[^\\\\\\\"'\\\\`]*bg-\\\\[#e11d2e\\\\]\\\" src packages/studio/src --include=*.js --include=*.jsx | while read f; do sed -i -E 's/(bg-\\\\[#e11d2e\\\\][^\\\"'\\\"'\\\"'`]*)text-black/\\\\1text-white/g' \\\"$f\\\"; echo \\\"fixed: $f\\\"; done; sed -n 94,100p src/components/UploadPicker.js | cut -c1-170; sed -n 243,247p src/components/UploadPicker.js | cut -c1-170\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:34:06.472Z",
+      "lastAccessed": "2026-10-09T21:34:06.472Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:34:06.472Z"
+    },
+    "cmd-1791581682677": {
+      "key": "cmd-1791581682677",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && sed -i -E 's#(<span class=\\\"text-\\\\[(9|10)px\\\\] font-black )text-black#\\\\1text-white#g' src/components/UploadPicker.js && grep -c \\\"font-black text-white\\\" src/components/UploadPicker.js; node --test tests/*.test.js 2>&1 | grep -E \\\"^ℹ (tests|pass|fail)\\\"; npm run build:packages 2>&1 | grep -iE \\\"error|Successfully\\\" | head -8; npx vite build 2>&1 | grep -iE \\\"error|built in\\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:34:42.677Z",
+      "lastAccessed": "2026-10-09T21:34:42.677Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:34:42.677Z"
+    },
+    "cmd-1791581695017": {
+      "key": "cmd-1791581695017",
+      "value": "{\"command\":\"cat > \\\"$TEMP/advtest.js\\\" <<'EOF'\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:34:55.017Z",
+      "lastAccessed": "2026-10-09T21:34:55.017Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:34:55.017Z"
+    },
+    "cmd-1791581703793": {
+      "key": "cmd-1791581703793",
+      "value": "{\"command\":\"cd /c/Users/GRIM/Documents/GitHub/Grim-Generative-AI && git add -A 2>/dev/null && git commit -q -m \\\"fix(theme): white text on red buttons, badges and spinners for contrast\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:35:03.793Z",
+      "lastAccessed": "2026-10-09T21:35:03.793Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:35:03.793Z"
+    },
+    "cmd-1791581764987": {
+      "key": "cmd-1791581764987",
+      "value": "{\"command\":\"F=$(find \\\"$TEMP\\\"/advtest-*/out -name \\\"*.mp4\\\" | tail -1); /c/Users/GRIM/Documents/GitHub/Wan2GP/.venv/Scripts/python.exe -I -c \\\"\",\"exitCode\":0,\"success\":true}",
+      "namespace": "commands",
+      "storedAt": "2026-10-09T21:36:04.987Z",
+      "lastAccessed": "2026-10-09T21:36:04.987Z",
+      "accessCount": 0,
+      "expiresAt": "2026-11-08T21:36:04.987Z"
     }
   },
   "version": "3.0.0"
